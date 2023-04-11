@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial;
+}
+
+body{
+    background-color: #121212;
+}
+ .menu{
+    list-style: none;
+    padding: 0;
+ }
+ 
+ .menu li{
+    color: aliceblue;
+    display: inline;
+    padding: 10px;
+ }
+
+ .menu li a{
+    display: inline-block;
+    text-decoration: none;
+    display: inline;
+ }
+
+header{
+    height: 55px;
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgpsn{
+    width: 40px;
+}
+
+.editimg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inpute{
+    display: flex;
+    align-items: center;
+
+}
+ 
+input{
+    background-color: #121212;
+    margin: 0.6rem 0;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #0000001c;
+}
+
+input:focus-visible{
+    color:#fff;
+    outline: 2px solid rgb(100, 201, 0);
+}
+
+a{
+    color: aliceblue;
+}
+
+a:hover{
+
+    color: rgb(100, 201, 0);
+}
+
+.principal{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gow{
+    width: 750px;
+    border-radius: 30px;
+}
+
+.logo{
+    width: 400px;
+}
+
+.logoimg{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoimg h3{
+    padding-top: 5px;
+}
+
+.info{
+    padding-top: 20px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.info h3{
+    padding-top: 15px;
+    color: green;
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.botao button{
+    color: aliceblue;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.now{
+    border: none;
+    background-color: rgb(100, 201, 0) ;
+}
+
+.add{
+    border: none;
+    background-color: #0074e4;
+}
+
+.ini{
+    padding-top: 30px;
+    display: flex;
+    padding-left: 5%;
+    justify-content: start;
+    align-items: flex-start;
+    color: aliceblue;
+}
+
+.ini::after{
+    content: '';
+    display: block;
+    width: 13rem;
+    height: 0.3rem;
+    background-color: rgb(15, 133, 0);
+    margin-top: 37px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.iniex{
+    padding-top: 30px;
+    display: flex;
+    padding-left: 5%;
+    justify-content: start;
+    align-items: flex-start;
+    color: aliceblue;
+}
+
+.iniex::after{
+    content: '';
+    display: block;
+    width: 9rem;
+    height: 0.3rem;
+    background-color: rgb(15, 133, 0);
+    margin-top: 37px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.iniso{
+    padding-top: 30px;
+    display: flex;
+    padding-left: 5%;
+    justify-content: start;
+    align-items: flex-start;
+    color: aliceblue;
+}
+
+.iniso::after{
+    content: '';
+    display: block;
+    width: 6.5rem;
+    height: 0.3rem;
+    background-color: rgb(15, 133, 0);
+    margin-top: 37px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.inico{
+    padding-top: 30px;
+    display: flex;
+    padding-left: 5%;
+    justify-content: start;
+    align-items: flex-start;
+    color: aliceblue;
+}
+
+.inico::after{
+    content: '';
+    display: block;
+    width: 8.5rem;
+    height: 0.3rem;
+    background-color: rgb(15, 133, 0);
+    margin-top: 37px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+.ini2{
+    color: aliceblue;
+
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+}
+
+.lan{
+    color: rgb(15, 133, 0);
+}
+
+.namew{
+    padding-top: 5px;
+}
+
+.sobree{
+    display: flex;
+    padding-top: 5%;
+}
+
+.principal-ex{
+    max-width: 1050px;
+    color: aliceblue;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gamesoo{
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.diff{
+    padding-top: 5px;
+    color: green;
+    padding-bottom: 10%;
+}
+
+.contatos{
+    color: aliceblue;
+    flex-direction: column;
+}
+
+.unir{
+    padding-top: 2%;
+    padding-left: 5%;
+}
